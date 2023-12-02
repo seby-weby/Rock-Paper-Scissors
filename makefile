@@ -1,3 +1,3 @@
 all:
-	javac src/*.java -d bin
+	javac -cp lib/*.jar src/*.java -d bin
 	java -cp bin src/Runner
